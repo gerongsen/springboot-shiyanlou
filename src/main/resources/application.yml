@@ -1,0 +1,32 @@
+server:
+  port: 8081
+spring: 
+  mvc:
+    view:
+      prefix: /view/
+      suffix: .html
+  resources:
+    static-locations: classpath:/upload,classpath:/static
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+app: 
+  datasource: 
+    first:
+      url: jdbc:mysql://localhost:3306/test
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+    second: 
+      url: jdbc:mysql://localhost:3306/secret
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+    

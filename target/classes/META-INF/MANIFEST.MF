@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot-shiyanlou
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: gnnt
+Implementation-Vendor-Id: com.shiyanlou
+Build-Jdk: 1.8.0_162-ea
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/springboot-shiyanlou
+Created-By: Maven Integration for Eclipse
+
